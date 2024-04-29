@@ -1,0 +1,120 @@
+.layer-1-icon {
+  height: 108px;
+  width: 108px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.layer-1-wrapper {
+  width: 918px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.blank-line,
+.blank-line1,
+.blank-line2,
+.blank-line3,
+.blank-line4,
+.bra-height-from,
+.front-chest-width,
+.front-under-bust,
+.hello-email,
+.here-are-the,
+.hope-you-enjoyed,
+.on-wwwandherus,
+.shoulder-width,
+.we-would-love {
+  margin: 0;
+}
+.hello-email-hope-container {
+  position: relative;
+}
+.button-shape-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #3b3435;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.make-me-a {
+  position: absolute;
+  top: 10px;
+  left: 29px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-istok-web);
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
+.button-shape {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 72px;
+  width: 314px;
+  position: relative;
+  white-space: nowrap;
+}
+.button-shape-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 0 21px;
+}
+.hello-email-hope-you-enjoye-parent,
+.ipad-pro-129-8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hello-email-hope-you-enjoye-parent {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 61px;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: #000;
+  font-family: var(--font-istok-web);
+}
+.ipad-pro-129-8 {
+  width: 100%;
+  position: relative;
+  background-color: #c9ba9f;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 108px 39px 173px;
+  box-sizing: border-box;
+  gap: 125px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 950px) {
+  .hello-email-hope-container {
+    font-size: 29px;
+  }
+  .hello-email-hope-you-enjoye-parent {
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hello-email-hope-you-enjoye-parent {
+    gap: 15px;
+  }
+  .ipad-pro-129-8 {
+    gap: 62px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hello-email-hope-container {
+    font-size: 22px;
+  }
